@@ -1,4 +1,4 @@
-package stage;
+package stage.model;
 
 import java.math.BigDecimal;
 
