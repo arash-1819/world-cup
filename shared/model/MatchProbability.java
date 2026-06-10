@@ -1,16 +1,16 @@
 package shared.model;
 
 public class MatchProbability {
-    private final double winProbability;
-    private final double tieProbability;
-    private final double loseProbability;
+    private final double win;
+    private final double tie;
+    private final double lose;
 
-    public MatchProbability(double winProbability, double tieProbability, double loseProbability) {
-        validateProbability(winProbability);
-        validateProbability(tieProbability);
-        validateProbability(loseProbability);
+    public MatchProbability(double win, double tie, double lose) {
+        validateProbability(win);
+        validateProbability(tie);
+        validateProbability(lose);
 
-        double total = winProbability + tieProbability + loseProbability;
+        double total = win + tie + lose;
 
         if (Math.abs(total - 1.0) > 0.000001) {
             throw new IllegalArgumentException(
@@ -18,34 +18,34 @@ public class MatchProbability {
             );
         }
 
-        this.winProbability = winProbability;
-        this.tieProbability = tieProbability;
-        this.loseProbability = loseProbability;
+        this.win = win;
+        this.tie = tie;
+        this.lose = lose;
     }
 
-    public double getWinProbability() {
-        return winProbability;
+    public double getWin() {
+        return win;
     }
 
-    public double getTieProbability() {
-        return tieProbability;
+    public double getTie() {
+        return tie;
     }
 
-    public double getLoseProbability() {
-        return loseProbability;
+    public double getLose() {
+        return lose;
     }
 
     public double getProbability(MatchResult result) {
         if (result == MatchResult.WIN) {
-            return winProbability;
+            return win;
         }
 
         if (result == MatchResult.TIE) {
-            return tieProbability;
+            return tie;
         }
 
         if (result == MatchResult.LOSE) {
-            return loseProbability;
+            return lose;
         }
 
         throw new IllegalArgumentException("Unknown match result: " + result);
@@ -53,9 +53,9 @@ public class MatchProbability {
 
     public MatchProbability reversed() {
         return new MatchProbability(
-                loseProbability,
-                tieProbability,
-                winProbability
+                lose,
+                tie,
+                win
         );
     }
 
@@ -70,9 +70,9 @@ public class MatchProbability {
     @Override
     public String toString() {
         return "MatchProbability{" +
-                "win=" + winProbability +
-                ", tie=" + tieProbability +
-                ", lose=" + loseProbability +
+                "win=" + win +
+                ", tie=" + tie +
+                ", lose=" + lose +
                 '}';
     }
 }

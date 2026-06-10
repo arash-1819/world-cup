@@ -4,62 +4,73 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MatchProbabilityTable {
-    private final Map<MatchupKey, MatchProbability> probabilities;
+    private final Map<MatchKey, MatchProbability> probabilities;
 
     public MatchProbabilityTable() {
         this.probabilities = new HashMap<>();
     }
 
-    public void addMatchProbability(
+    public void addMatch(
             Team team1,
             Team team2,
-            double team1WinProbability,
-            double tieProbability,
-            double team1LoseProbability
+            double win,
+            double tie,
+            double lose
     ) {
-        MatchProbability matchProbability = new MatchProbability(
-                team1WinProbability,
-                tieProbability,
-                team1LoseProbability
-        );
+        MatchKey key = new MatchKey(team1, team2);
 
-        MatchupKey key = new MatchupKey(team1, team2);
-        MatchupKey reversedKey = new MatchupKey(team2, team1);
+        if (probabilities.containsKey(key)) {
+            throw new IllegalArgumentException(
+                    "Probability already exists for matchup: " + key
+            );
+        }
 
-        probabilities.put(key, matchProbability);
-        probabilities.put(reversedKey, matchProbability.reversed());
+        MatchProbability probability;
+
+        if (key.isSameOrder(team1, team2)) {
+            probability = new MatchProbability(
+                    win,
+                    tie,
+                    lose
+            );
+        } else {
+            probability = new MatchProbability(
+                    lose,
+                    tie,
+                    win
+            );
+        }
+
+        probabilities.put(key, probability);
     }
 
     public double getProbability(Team team1, Team team2, MatchResult result) {
-        MatchupKey key = new MatchupKey(team1, team2);
+        MatchKey key = new MatchKey(team1, team2);
 
-        MatchProbability matchProbability = probabilities.get(key);
+        MatchProbability probability = probabilities.get(key);
 
-        if (matchProbability == null) {
+        if (probability == null) {
             throw new IllegalArgumentException(
-                    "No probability found for matchup: " + team1 + " vs " + team2
+                    "No probability found for matchup: " + key
             );
         }
 
-        return matchProbability.getProbability(result);
-    }
-
-    public boolean hasProbability(Team team1, Team team2) {
-        MatchupKey key = new MatchupKey(team1, team2);
-        return probabilities.containsKey(key);
-    }
-
-    public MatchProbability getMatchProbability(Team team1, Team team2) {
-        MatchupKey key = new MatchupKey(team1, team2);
-
-        MatchProbability matchProbability = probabilities.get(key);
-
-        if (matchProbability == null) {
-            throw new IllegalArgumentException(
-                    "No probability found for matchup: " + team1 + " vs " + team2
-            );
+        if (key.isSameOrder(team1, team2)) {
+            return probability.getProbability(result);
         }
 
-        return matchProbability;
+        return probability.getProbability(reverseResult(result));
+    }
+
+    private MatchResult reverseResult(MatchResult result) {
+        if (result == MatchResult.WIN) {
+            return MatchResult.LOSE;
+        }
+
+        if (result == MatchResult.LOSE) {
+            return MatchResult.WIN;
+        }
+
+        return MatchResult.TIE;
     }
 }

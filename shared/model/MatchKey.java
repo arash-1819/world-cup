@@ -2,11 +2,11 @@ package shared.model;
 
 import java.util.Objects;
 
-public class MatchupKey {
+public class MatchKey {
     private final Team team1;
     private final Team team2;
 
-    public MatchupKey(Team team1, Team team2) {
+    public MatchKey(Team team1, Team team2) {
         if (team1 == null || team2 == null) {
             throw new IllegalArgumentException("Teams cannot be null.");
         }
@@ -15,8 +15,13 @@ public class MatchupKey {
             throw new IllegalArgumentException("A team cannot play against itself.");
         }
 
-        this.team1 = team1;
-        this.team2 = team2;
+        if (team1.getName().compareTo(team2.getName()) <= 0) {
+            this.team1 = team1;
+            this.team2 = team2;
+        } else {
+            this.team1 = team2;
+            this.team2 = team1;
+        }
     }
 
     public Team getTeam1() {
@@ -25,6 +30,10 @@ public class MatchupKey {
 
     public Team getTeam2() {
         return team2;
+    }
+
+    public boolean isSameOrder(Team inputTeam1, Team inputTeam2) {
+        return team1.equals(inputTeam1) && team2.equals(inputTeam2);
     }
 
     @Override
