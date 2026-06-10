@@ -1,6 +1,6 @@
 package stage.model;
 
-import shared.Team;
+import shared.model.Team;
 
 import java.math.BigDecimal;
 import java.util.HashSet;

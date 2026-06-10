@@ -42,11 +42,11 @@ public class MatchKey {
             return true;
         }
 
-        if (!(obj instanceof MatchupKey)) {
+        if (!(obj instanceof MatchKey)) {
             return false;
         }
 
-        MatchupKey other = (MatchupKey) obj;
+        MatchKey other = (MatchKey) obj;
 
         return Objects.equals(team1, other.team1)
                 && Objects.equals(team2, other.team2);

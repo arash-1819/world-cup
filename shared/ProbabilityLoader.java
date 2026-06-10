@@ -1,0 +1,95 @@
+package shared;
+
+import shared.model.MatchProbabilityTable;
+import shared.model.Team;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class ProbabilityLoader {
+    private static final Path DEFAULT_FILE_PATH = Path.of(
+            "shared",
+            "data",
+            "match_probabilities.csv"
+    );
+
+    public static MatchProbabilityTable load() {
+        return load(DEFAULT_FILE_PATH);
+    }
+
+    public static MatchProbabilityTable load(Path filePath) {
+        MatchProbabilityTable table = new MatchProbabilityTable();
+
+        try (BufferedReader reader = Files.newBufferedReader(filePath, StandardCharsets.UTF_8)) {
+            String header = reader.readLine();
+
+            if (header == null) {
+                throw new IllegalArgumentException("Probability file is empty: " + filePath);
+            }
+
+            String line;
+            int lineNumber = 1;
+
+            while ((line = reader.readLine()) != null) {
+                lineNumber++;
+
+                if (line.trim().isEmpty()) {
+                    continue;
+                }
+
+                addLineToTable(table, line, lineNumber);
+            }
+        } catch (IOException exception) {
+            throw new RuntimeException("Could not read probability file: " + filePath, exception);
+        }
+
+        return table;
+    }
+
+    public static void printAll() {
+        MatchProbabilityTable table = load();
+        table.printAll();
+    }
+
+    private static void addLineToTable(
+            MatchProbabilityTable table,
+            String line,
+            int lineNumber
+    ) {
+        String[] parts = line.split(",", -1);
+
+        if (parts.length != 5) {
+            throw new IllegalArgumentException(
+                    "Invalid CSV format at line " + lineNumber + ": " + line
+            );
+        }
+
+        String team1 = parts[0].trim();
+        String team2 = parts[1].trim();
+
+        double win = parseProbability(parts[2].trim(), lineNumber, "win");
+        double tie = parseProbability(parts[3].trim(), lineNumber, "tie");
+        double lose = parseProbability(parts[4].trim(), lineNumber, "lose");
+
+        table.addMatch(
+                new Team(team1),
+                new Team(team2),
+                win,
+                tie,
+                lose
+        );
+    }
+
+    private static double parseProbability(String value, int lineNumber, String columnName) {
+        try {
+            return Double.parseDouble(value);
+        } catch (NumberFormatException exception) {
+            throw new IllegalArgumentException(
+                    "Invalid probability at line " + lineNumber + ", column " + columnName + ": " + value
+            );
+        }
+    }
+}

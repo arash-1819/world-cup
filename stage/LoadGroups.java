@@ -6,7 +6,7 @@ import stage.model.GroupName;
 
 import java.util.List;
 
-public final class StageGroups {
+public final class LoadGroups {
     public static List<Group> createGroups() {
         return List.of(
                 new Group(
