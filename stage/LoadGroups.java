@@ -121,17 +121,35 @@ public final class LoadGroups {
     }
 
     public static void printGroups(List<Group> groups) {
+        System.out.println("+---------+--------------------------+--------------------------+--------------------------+--------------------------+");
+
+        System.out.printf(
+                "| %-7s | %-24s | %-24s | %-24s | %-24s |%n",
+                "Group",
+                "Team 1",
+                "Team 2",
+                "Team 3",
+                "Team 4"
+        );
+
+        System.out.println("+---------+--------------------------+--------------------------+--------------------------+--------------------------+");
+
         for (Group group : groups) {
-            System.out.println("Group " + group.getName());
+            List<Team> teams = group.getTeams();
 
-            for (Team team : group.getTeams()) {
-                System.out.println("- " + team.getName());
-            }
-
-            System.out.println();
+            System.out.printf(
+                    "| %-7s | %-24s | %-24s | %-24s | %-24s |%n",
+                    group.getName(),
+                    teams.get(0).getName(),
+                    teams.get(1).getName(),
+                    teams.get(2).getName(),
+                    teams.get(3).getName()
+            );
         }
-    }
 
+        System.out.println("+---------+--------------------------+--------------------------+--------------------------+--------------------------+");
+    }
+    
     private static Team team(String name) {
         return new Team(name);
     }

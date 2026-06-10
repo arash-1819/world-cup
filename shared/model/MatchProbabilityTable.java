@@ -88,11 +88,31 @@ public class MatchProbabilityTable {
         int knownCount = 0;
         int missingCount = 0;
 
+        printLine();
+
+        System.out.printf(
+                "| %-28s | %-28s | %8s | %8s | %8s |%n",
+                "Team 1",
+                "Team 2",
+                "Win",
+                "Tie",
+                "Lose"
+        );
+
+        printLine();
+
         for (Map.Entry<MatchKey, MatchProbability> entry : probabilities.entrySet()) {
             MatchKey key = entry.getKey();
             MatchProbability probability = entry.getValue();
 
-            System.out.println(key + " | " + probability);
+            System.out.printf(
+                    "| %-28s | %-28s | %8s | %8s | %8s |%n",
+                    key.getTeam1().getName(),
+                    key.getTeam2().getName(),
+                    formatProbability(probability.getWin()),
+                    formatProbability(probability.getTie()),
+                    formatProbability(probability.getLose())
+            );
 
             if (probability.hasMissingProbability()) {
                 missingCount++;
@@ -101,10 +121,28 @@ public class MatchProbabilityTable {
             }
         }
 
+        printLine();
+
         System.out.println();
-        System.out.println("Total matches: " + probabilities.size());
-        System.out.println("Known matches: " + knownCount);
-        System.out.println("Missing matches: " + missingCount);
+        System.out.println("Summary");
+        System.out.println("-------");
+        System.out.println("Total matchups:   " + probabilities.size());
+        System.out.println("Known matchups:   " + knownCount);
+        System.out.println("Missing matchups: " + missingCount);
+    }
+
+    private void printLine() {
+        System.out.println(
+                "+------------------------------+------------------------------+----------+----------+----------+"
+        );
+    }
+
+    private String formatProbability(double probability) {
+        if (probability == MatchProbability.MISSING_PROBABILITY) {
+            return " ";
+        }
+
+        return String.format("%.4f", probability);
     }
 
     private MatchResult reverseResult(MatchResult result) {
