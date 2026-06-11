@@ -27,8 +27,7 @@ public class Main {
         MatchProbabilityTable probabilities_round = ProbabilityLoader.load('r');
         // probabilities_group.printAll();
 
-
-        List<Round32MatchResult> round32Results = Round32Calculator.calculate(groups, probabilitiesRound);
+        List<Round32MatchResult> round32Results = Round32Calculator.calculate(groups, probabilities_round);
         Round32Calculator.printRound32Results(round32Results);
     }
 }
