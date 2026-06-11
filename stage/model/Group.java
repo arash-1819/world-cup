@@ -45,6 +45,10 @@ public final class Group {
         return List.copyOf(outcomes.values());
     }
 
+    public void clearOutcomes() {
+        outcomes.clear();
+    }
+
     public void addProbabilityToOutcome(
             String firstPlaceTeam,
             String secondPlaceTeam,
