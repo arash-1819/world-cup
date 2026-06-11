@@ -232,4 +232,61 @@ public final class Round8Calculator {
                 .stripTrailingZeros()
                 .toPlainString();
     }
+
+    public static Map<String, BigDecimal> calculateTop4Probabilities(
+            List<Round8MatchResult> round8Results
+    ) {
+        Map<String, BigDecimal> top4Probabilities = new LinkedHashMap<>();
+
+        for (Round8MatchResult round8Result : round8Results) {
+            for (Round8MatchWinnerProbability winnerProbability : round8Result.getWinnerProbabilities()) {
+                String teamName = winnerProbability.getTeam().getName();
+                BigDecimal probabilityPercent = winnerProbability.getProbabilityPercent();
+
+                top4Probabilities.merge(
+                        teamName,
+                        probabilityPercent,
+                        BigDecimal::add
+                );
+            }
+        }
+
+        return top4Probabilities;
+    }
+
+    public static void printTop4Probabilities(List<Round8MatchResult> round8Results) {
+        Map<String, BigDecimal> top4Probabilities = calculateTop4Probabilities(round8Results);
+
+        List<Map.Entry<String, BigDecimal>> sortedEntries = new ArrayList<>(top4Probabilities.entrySet());
+
+        sortedEntries.sort(
+                Map.Entry.<String, BigDecimal>comparingByValue().reversed()
+        );
+
+        BigDecimal totalProbabilityPercent = BigDecimal.ZERO;
+
+        System.out.println();
+        System.out.println("Top 4 team probabilities");
+        printLine();
+        System.out.printf("| %-28s | %12s |%n", "Team", "Probability");
+        printLine();
+
+        for (Map.Entry<String, BigDecimal> entry : sortedEntries) {
+            BigDecimal probabilityPercent = entry.getValue();
+
+            totalProbabilityPercent = totalProbabilityPercent.add(
+                    probabilityPercent,
+                    MATH_CONTEXT
+            );
+
+            System.out.printf(
+                    "| %-28s | %11s%% |%n",
+                    entry.getKey(),
+                    formatProbability(probabilityPercent)
+            );
+        }
+
+        printLine();
+        System.out.println("Total probability: " + formatProbability(totalProbabilityPercent) + "%");
+    }
 }
