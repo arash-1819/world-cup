@@ -10,14 +10,26 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class ProbabilityLoader {
-    private static final Path DEFAULT_FILE_PATH = Path.of(
+    private static final Path DEFAULT_GROUP_FILE_PATH = Path.of(
             "shared",
             "data",
-            "match_probabilities.csv"
+            "match_probabilities_group.csv"
     );
 
-    public static MatchProbabilityTable load() {
-        return load(DEFAULT_FILE_PATH);
+    private static final Path DEFAULT_ROUND_FILE_PATH = Path.of(
+        "shared",
+        "data",
+        "match_probabilities_round.csv"
+    );
+
+    public static MatchProbabilityTable load(char mode) {
+        if (mode == 'g') {
+            return load(DEFAULT_GROUP_FILE_PATH);
+        } else if (mode == 'r') {
+            return load(DEFAULT_ROUND_FILE_PATH);
+        }
+
+        throw new IllegalArgumentException("Invalid probability mode: " + mode);
     }
 
     public static MatchProbabilityTable load(Path filePath) {
@@ -49,8 +61,7 @@ public class ProbabilityLoader {
         return table;
     }
 
-    public static void printAll() {
-        MatchProbabilityTable table = load();
+    public static void printAll(MatchProbabilityTable table) {
         table.printAll();
     }
 

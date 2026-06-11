@@ -9,7 +9,7 @@ Algeria,Canada,-1,-1,-1
 Algeria,Cape Verde,-1,-1,-1
 Algeria,Colombia,-1,-1,-1
 Algeria,Croatia,-1,-1,-1
-Algeria,Curaçao,-1,-1,-1
+Algeria,Curacao,-1,-1,-1
 Algeria,Czech Republic,-1,-1,-1
 Algeria,DR Congo,-1,-1,-1
 Algeria,Ecuador,-1,-1,-1
@@ -55,7 +55,7 @@ Argentina,Canada,-1,-1,-1
 Argentina,Cape Verde,-1,-1,-1
 Argentina,Colombia,-1,-1,-1
 Argentina,Croatia,-1,-1,-1
-Argentina,Curaçao,-1,-1,-1
+Argentina,Curacao,-1,-1,-1
 Argentina,Czech Republic,-1,-1,-1
 Argentina,DR Congo,-1,-1,-1
 Argentina,Ecuador,-1,-1,-1
@@ -100,7 +100,7 @@ Australia,Canada,-1,-1,-1
 Australia,Cape Verde,-1,-1,-1
 Australia,Colombia,-1,-1,-1
 Australia,Croatia,-1,-1,-1
-Australia,Curaçao,-1,-1,-1
+Australia,Curacao,-1,-1,-1
 Australia,Czech Republic,-1,-1,-1
 Australia,DR Congo,-1,-1,-1
 Australia,Ecuador,-1,-1,-1
@@ -144,7 +144,7 @@ Austria,Canada,-1,-1,-1
 Austria,Cape Verde,-1,-1,-1
 Austria,Colombia,-1,-1,-1
 Austria,Croatia,-1,-1,-1
-Austria,Curaçao,-1,-1,-1
+Austria,Curacao,-1,-1,-1
 Austria,Czech Republic,-1,-1,-1
 Austria,DR Congo,-1,-1,-1
 Austria,Ecuador,-1,-1,-1
@@ -187,7 +187,7 @@ Belgium,Canada,-1,-1,-1
 Belgium,Cape Verde,-1,-1,-1
 Belgium,Colombia,-1,-1,-1
 Belgium,Croatia,-1,-1,-1
-Belgium,Curaçao,-1,-1,-1
+Belgium,Curacao,-1,-1,-1
 Belgium,Czech Republic,-1,-1,-1
 Belgium,DR Congo,-1,-1,-1
 Belgium,Ecuador,-1,-1,-1
@@ -229,7 +229,7 @@ Bosnia and Herzegovina,Canada,0.2128,0.2317,0.5556
 Bosnia and Herzegovina,Cape Verde,-1,-1,-1
 Bosnia and Herzegovina,Colombia,-1,-1,-1
 Bosnia and Herzegovina,Croatia,-1,-1,-1
-Bosnia and Herzegovina,Curaçao,-1,-1,-1
+Bosnia and Herzegovina,Curacao,-1,-1,-1
 Bosnia and Herzegovina,Czech Republic,-1,-1,-1
 Bosnia and Herzegovina,DR Congo,-1,-1,-1
 Bosnia and Herzegovina,Ecuador,-1,-1,-1
@@ -270,7 +270,7 @@ Brazil,Canada,-1,-1,-1
 Brazil,Cape Verde,-1,-1,-1
 Brazil,Colombia,-1,-1,-1
 Brazil,Croatia,-1,-1,-1
-Brazil,Curaçao,-1,-1,-1
+Brazil,Curacao,-1,-1,-1
 Brazil,Czech Republic,-1,-1,-1
 Brazil,DR Congo,-1,-1,-1
 Brazil,Ecuador,-1,-1,-1
@@ -310,7 +310,7 @@ Brazil,Uzbekistan,-1,-1,-1
 Canada,Cape Verde,-1,-1,-1
 Canada,Colombia,-1,-1,-1
 Canada,Croatia,-1,-1,-1
-Canada,Curaçao,-1,-1,-1
+Canada,Curacao,-1,-1,-1
 Canada,Czech Republic,-1,-1,-1
 Canada,DR Congo,-1,-1,-1
 Canada,Ecuador,-1,-1,-1
@@ -349,7 +349,7 @@ Canada,Uruguay,-1,-1,-1
 Canada,Uzbekistan,-1,-1,-1
 Cape Verde,Colombia,-1,-1,-1
 Cape Verde,Croatia,-1,-1,-1
-Cape Verde,Curaçao,-1,-1,-1
+Cape Verde,Curacao,-1,-1,-1
 Cape Verde,Czech Republic,-1,-1,-1
 Cape Verde,DR Congo,-1,-1,-1
 Cape Verde,Ecuador,-1,-1,-1
@@ -387,7 +387,7 @@ Cape Verde,United States,-1,-1,-1
 Cape Verde,Uruguay,0.1333,0.1608,0.7059
 Cape Verde,Uzbekistan,-1,-1,-1
 Colombia,Croatia,-1,-1,-1
-Colombia,Curaçao,-1,-1,-1
+Colombia,Curacao,-1,-1,-1
 Colombia,Czech Republic,-1,-1,-1
 Colombia,DR Congo,0.6667,0.1905,0.1429
 Colombia,Ecuador,-1,-1,-1
@@ -424,7 +424,7 @@ Colombia,Turkey,-1,-1,-1
 Colombia,United States,-1,-1,-1
 Colombia,Uruguay,-1,-1,-1
 Colombia,Uzbekistan,0.7297,0.1592,0.1111
-Croatia,Curaçao,-1,-1,-1
+Croatia,Curacao,-1,-1,-1
 Croatia,Czech Republic,-1,-1,-1
 Croatia,DR Congo,-1,-1,-1
 Croatia,Ecuador,-1,-1,-1
@@ -461,42 +461,42 @@ Croatia,Turkey,-1,-1,-1
 Croatia,United States,-1,-1,-1
 Croatia,Uruguay,-1,-1,-1
 Croatia,Uzbekistan,-1,-1,-1
-Curaçao,Czech Republic,-1,-1,-1
-Curaçao,DR Congo,-1,-1,-1
-Curaçao,Ecuador,0.0625,0.1042,0.8333
-Curaçao,Egypt,-1,-1,-1
-Curaçao,England,-1,-1,-1
-Curaçao,France,-1,-1,-1
-Curaçao,Germany,0.0244,0.0232,0.9524
-Curaçao,Ghana,-1,-1,-1
-Curaçao,Haiti,-1,-1,-1
-Curaçao,Iran,-1,-1,-1
-Curaçao,Iraq,-1,-1,-1
-Curaçao,Ivory Coast,0.0714,0.1190,0.8095
-Curaçao,Japan,-1,-1,-1
-Curaçao,Jordan,-1,-1,-1
-Curaçao,Mexico,-1,-1,-1
-Curaçao,Morocco,-1,-1,-1
-Curaçao,Netherlands,-1,-1,-1
-Curaçao,New Zealand,-1,-1,-1
-Curaçao,Norway,-1,-1,-1
-Curaçao,Panama,-1,-1,-1
-Curaçao,Paraguay,-1,-1,-1
-Curaçao,Portugal,-1,-1,-1
-Curaçao,Qatar,-1,-1,-1
-Curaçao,Saudi Arabia,-1,-1,-1
-Curaçao,Scotland,-1,-1,-1
-Curaçao,Senegal,-1,-1,-1
-Curaçao,South Africa,-1,-1,-1
-Curaçao,South Korea,-1,-1,-1
-Curaçao,Spain,-1,-1,-1
-Curaçao,Sweden,-1,-1,-1
-Curaçao,Switzerland,-1,-1,-1
-Curaçao,Tunisia,-1,-1,-1
-Curaçao,Turkey,-1,-1,-1
-Curaçao,United States,-1,-1,-1
-Curaçao,Uruguay,-1,-1,-1
-Curaçao,Uzbekistan,-1,-1,-1
+Curacao,Czech Republic,-1,-1,-1
+Curacao,DR Congo,-1,-1,-1
+Curacao,Ecuador,0.0625,0.1042,0.8333
+Curacao,Egypt,-1,-1,-1
+Curacao,England,-1,-1,-1
+Curacao,France,-1,-1,-1
+Curacao,Germany,0.0244,0.0232,0.9524
+Curacao,Ghana,-1,-1,-1
+Curacao,Haiti,-1,-1,-1
+Curacao,Iran,-1,-1,-1
+Curacao,Iraq,-1,-1,-1
+Curacao,Ivory Coast,0.0714,0.1190,0.8095
+Curacao,Japan,-1,-1,-1
+Curacao,Jordan,-1,-1,-1
+Curacao,Mexico,-1,-1,-1
+Curacao,Morocco,-1,-1,-1
+Curacao,Netherlands,-1,-1,-1
+Curacao,New Zealand,-1,-1,-1
+Curacao,Norway,-1,-1,-1
+Curacao,Panama,-1,-1,-1
+Curacao,Paraguay,-1,-1,-1
+Curacao,Portugal,-1,-1,-1
+Curacao,Qatar,-1,-1,-1
+Curacao,Saudi Arabia,-1,-1,-1
+Curacao,Scotland,-1,-1,-1
+Curacao,Senegal,-1,-1,-1
+Curacao,South Africa,-1,-1,-1
+Curacao,South Korea,-1,-1,-1
+Curacao,Spain,-1,-1,-1
+Curacao,Sweden,-1,-1,-1
+Curacao,Switzerland,-1,-1,-1
+Curacao,Tunisia,-1,-1,-1
+Curacao,Turkey,-1,-1,-1
+Curacao,United States,-1,-1,-1
+Curacao,Uruguay,-1,-1,-1
+Curacao,Uzbekistan,-1,-1,-1
 Czech Republic,DR Congo,-1,-1,-1
 Czech Republic,Ecuador,-1,-1,-1
 Czech Republic,Egypt,-1,-1,-1
