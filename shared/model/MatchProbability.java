@@ -15,7 +15,7 @@ public class MatchProbability {
         if (!hasMissingProbability(win, tie, lose)) {
             double total = win + tie + lose;
 
-            if (Math.abs(total - 1.0) > 0.000001) {
+            if (Math.abs(total - 1.0) > 0.0001) {
                 throw new IllegalArgumentException(
                         "Win, tie, and lose probabilities must add up to 1.0. Total was: " + total
                 );

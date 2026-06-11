@@ -1,7 +1,7 @@
 team1,team2,win,tie,lose
-Algeria,Argentina,-1,-1,-1
+Algeria,Argentina,0.1111,0.1667,0.7222
 Algeria,Australia,-1,-1,-1
-Algeria,Austria,-1,-1,-1
+Algeria,Austria,0.2941,0.2513,0.4545
 Algeria,Belgium,-1,-1,-1
 Algeria,Bosnia and Herzegovina,-1,-1,-1
 Algeria,Brazil,-1,-1,-1
@@ -23,7 +23,7 @@ Algeria,Iran,-1,-1,-1
 Algeria,Iraq,-1,-1,-1
 Algeria,Ivory Coast,-1,-1,-1
 Algeria,Japan,-1,-1,-1
-Algeria,Jordan,-1,-1,-1
+Algeria,Jordan,0.6552,0.1910,0.1538
 Algeria,Mexico,-1,-1,-1
 Algeria,Morocco,-1,-1,-1
 Algeria,Netherlands,-1,-1,-1
@@ -47,7 +47,7 @@ Algeria,United States,-1,-1,-1
 Algeria,Uruguay,-1,-1,-1
 Algeria,Uzbekistan,-1,-1,-1
 Argentina,Australia,-1,-1,-1
-Argentina,Austria,-1,-1,-1
+Argentina,Austria,0.6078,0.2136,0.1786
 Argentina,Belgium,-1,-1,-1
 Argentina,Bosnia and Herzegovina,-1,-1,-1
 Argentina,Brazil,-1,-1,-1
@@ -69,7 +69,7 @@ Argentina,Iran,-1,-1,-1
 Argentina,Iraq,-1,-1,-1
 Argentina,Ivory Coast,-1,-1,-1
 Argentina,Japan,-1,-1,-1
-Argentina,Jordan,-1,-1,-1
+Argentina,Jordan,0.8462,0.0872,0.0667
 Argentina,Mexico,-1,-1,-1
 Argentina,Morocco,-1,-1,-1
 Argentina,Netherlands,-1,-1,-1
@@ -121,7 +121,7 @@ Australia,Netherlands,-1,-1,-1
 Australia,New Zealand,-1,-1,-1
 Australia,Norway,-1,-1,-1
 Australia,Panama,-1,-1,-1
-Australia,Paraguay,-1,-1,-1
+Australia,Paraguay,0.2778,0.2460,0.4762
 Australia,Portugal,-1,-1,-1
 Australia,Qatar,-1,-1,-1
 Australia,Saudi Arabia,-1,-1,-1
@@ -133,8 +133,8 @@ Australia,Spain,-1,-1,-1
 Australia,Sweden,-1,-1,-1
 Australia,Switzerland,-1,-1,-1
 Australia,Tunisia,-1,-1,-1
-Australia,Turkey,-1,-1,-1
-Australia,United States,-1,-1,-1
+Australia,Turkey,0.1923,0.2159,0.5918
+Australia,United States,0.2041,0.2126,0.5833
 Australia,Uruguay,-1,-1,-1
 Australia,Uzbekistan,-1,-1,-1
 Austria,Belgium,-1,-1,-1
@@ -158,7 +158,7 @@ Austria,Iran,-1,-1,-1
 Austria,Iraq,-1,-1,-1
 Austria,Ivory Coast,-1,-1,-1
 Austria,Japan,-1,-1,-1
-Austria,Jordan,-1,-1,-1
+Austria,Jordan,0.7619,0.1328,0.1053
 Austria,Mexico,-1,-1,-1
 Austria,Morocco,-1,-1,-1
 Austria,Netherlands,-1,-1,-1
@@ -191,13 +191,13 @@ Belgium,Curaçao,-1,-1,-1
 Belgium,Czech Republic,-1,-1,-1
 Belgium,DR Congo,-1,-1,-1
 Belgium,Ecuador,-1,-1,-1
-Belgium,Egypt,-1,-1,-1
+Belgium,Egypt,0.6078,0.2103,0.1818
 Belgium,England,-1,-1,-1
 Belgium,France,-1,-1,-1
 Belgium,Germany,-1,-1,-1
 Belgium,Ghana,-1,-1,-1
 Belgium,Haiti,-1,-1,-1
-Belgium,Iran,-1,-1,-1
+Belgium,Iran,0.7143,0.1607,0.1250
 Belgium,Iraq,-1,-1,-1
 Belgium,Ivory Coast,-1,-1,-1
 Belgium,Japan,-1,-1,-1
@@ -205,7 +205,7 @@ Belgium,Jordan,-1,-1,-1
 Belgium,Mexico,-1,-1,-1
 Belgium,Morocco,-1,-1,-1
 Belgium,Netherlands,-1,-1,-1
-Belgium,New Zealand,-1,-1,-1
+Belgium,New Zealand,0.7826,0.1265,0.0909
 Belgium,Norway,-1,-1,-1
 Belgium,Panama,-1,-1,-1
 Belgium,Paraguay,-1,-1,-1
@@ -225,7 +225,7 @@ Belgium,United States,-1,-1,-1
 Belgium,Uruguay,-1,-1,-1
 Belgium,Uzbekistan,-1,-1,-1
 Bosnia and Herzegovina,Brazil,-1,-1,-1
-Bosnia and Herzegovina,Canada,-1,-1,-1
+Bosnia and Herzegovina,Canada,0.2128,0.2317,0.5556
 Bosnia and Herzegovina,Cape Verde,-1,-1,-1
 Bosnia and Herzegovina,Colombia,-1,-1,-1
 Bosnia and Herzegovina,Croatia,-1,-1,-1
@@ -252,7 +252,7 @@ Bosnia and Herzegovina,Norway,-1,-1,-1
 Bosnia and Herzegovina,Panama,-1,-1,-1
 Bosnia and Herzegovina,Paraguay,-1,-1,-1
 Bosnia and Herzegovina,Portugal,-1,-1,-1
-Bosnia and Herzegovina,Qatar,-1,-1,-1
+Bosnia and Herzegovina,Qatar,0.6491,0.1970,0.1538
 Bosnia and Herzegovina,Saudi Arabia,-1,-1,-1
 Bosnia and Herzegovina,Scotland,-1,-1,-1
 Bosnia and Herzegovina,Senegal,-1,-1,-1
@@ -260,7 +260,7 @@ Bosnia and Herzegovina,South Africa,-1,-1,-1
 Bosnia and Herzegovina,South Korea,-1,-1,-1
 Bosnia and Herzegovina,Spain,-1,-1,-1
 Bosnia and Herzegovina,Sweden,-1,-1,-1
-Bosnia and Herzegovina,Switzerland,-1,-1,-1
+Bosnia and Herzegovina,Switzerland,0.1724,0.2122,0.6154
 Bosnia and Herzegovina,Tunisia,-1,-1,-1
 Bosnia and Herzegovina,Turkey,-1,-1,-1
 Bosnia and Herzegovina,United States,-1,-1,-1
@@ -279,14 +279,14 @@ Brazil,England,-1,-1,-1
 Brazil,France,-1,-1,-1
 Brazil,Germany,-1,-1,-1
 Brazil,Ghana,-1,-1,-1
-Brazil,Haiti,-1,-1,-1
+Brazil,Haiti,0.9259,0.0306,0.0435
 Brazil,Iran,-1,-1,-1
 Brazil,Iraq,-1,-1,-1
 Brazil,Ivory Coast,-1,-1,-1
 Brazil,Japan,-1,-1,-1
 Brazil,Jordan,-1,-1,-1
 Brazil,Mexico,-1,-1,-1
-Brazil,Morocco,-1,-1,-1
+Brazil,Morocco,0.6000,0.2182,0.1818
 Brazil,Netherlands,-1,-1,-1
 Brazil,New Zealand,-1,-1,-1
 Brazil,Norway,-1,-1,-1
@@ -295,7 +295,7 @@ Brazil,Paraguay,-1,-1,-1
 Brazil,Portugal,-1,-1,-1
 Brazil,Qatar,-1,-1,-1
 Brazil,Saudi Arabia,-1,-1,-1
-Brazil,Scotland,-1,-1,-1
+Brazil,Scotland,0.7059,0.1513,0.1429
 Brazil,Senegal,-1,-1,-1
 Brazil,South Africa,-1,-1,-1
 Brazil,South Korea,-1,-1,-1
@@ -333,7 +333,7 @@ Canada,Norway,-1,-1,-1
 Canada,Panama,-1,-1,-1
 Canada,Paraguay,-1,-1,-1
 Canada,Portugal,-1,-1,-1
-Canada,Qatar,-1,-1,-1
+Canada,Qatar,0.7727,0.1320,0.0952
 Canada,Saudi Arabia,-1,-1,-1
 Canada,Scotland,-1,-1,-1
 Canada,Senegal,-1,-1,-1
@@ -341,7 +341,7 @@ Canada,South Africa,-1,-1,-1
 Canada,South Korea,-1,-1,-1
 Canada,Spain,-1,-1,-1
 Canada,Sweden,-1,-1,-1
-Canada,Switzerland,-1,-1,-1
+Canada,Switzerland,0.2778,0.2460,0.4762
 Canada,Tunisia,-1,-1,-1
 Canada,Turkey,-1,-1,-1
 Canada,United States,-1,-1,-1
@@ -373,23 +373,23 @@ Cape Verde,Panama,-1,-1,-1
 Cape Verde,Paraguay,-1,-1,-1
 Cape Verde,Portugal,-1,-1,-1
 Cape Verde,Qatar,-1,-1,-1
-Cape Verde,Saudi Arabia,-1,-1,-1
+Cape Verde,Saudi Arabia,0.3846,0.2380,0.3774
 Cape Verde,Scotland,-1,-1,-1
 Cape Verde,Senegal,-1,-1,-1
 Cape Verde,South Africa,-1,-1,-1
 Cape Verde,South Korea,-1,-1,-1
-Cape Verde,Spain,-1,-1,-1
+Cape Verde,Spain,0.0435,0.0306,0.9259
 Cape Verde,Sweden,-1,-1,-1
 Cape Verde,Switzerland,-1,-1,-1
 Cape Verde,Tunisia,-1,-1,-1
 Cape Verde,Turkey,-1,-1,-1
 Cape Verde,United States,-1,-1,-1
-Cape Verde,Uruguay,-1,-1,-1
+Cape Verde,Uruguay,0.1333,0.1608,0.7059
 Cape Verde,Uzbekistan,-1,-1,-1
 Colombia,Croatia,-1,-1,-1
 Colombia,Curaçao,-1,-1,-1
 Colombia,Czech Republic,-1,-1,-1
-Colombia,DR Congo,-1,-1,-1
+Colombia,DR Congo,0.6667,0.1905,0.1429
 Colombia,Ecuador,-1,-1,-1
 Colombia,Egypt,-1,-1,-1
 Colombia,England,-1,-1,-1
@@ -409,7 +409,7 @@ Colombia,New Zealand,-1,-1,-1
 Colombia,Norway,-1,-1,-1
 Colombia,Panama,-1,-1,-1
 Colombia,Paraguay,-1,-1,-1
-Colombia,Portugal,-1,-1,-1
+Colombia,Portugal,0.2857,0.2381,0.4762
 Colombia,Qatar,-1,-1,-1
 Colombia,Saudi Arabia,-1,-1,-1
 Colombia,Scotland,-1,-1,-1
@@ -423,16 +423,16 @@ Colombia,Tunisia,-1,-1,-1
 Colombia,Turkey,-1,-1,-1
 Colombia,United States,-1,-1,-1
 Colombia,Uruguay,-1,-1,-1
-Colombia,Uzbekistan,-1,-1,-1
+Colombia,Uzbekistan,0.7297,0.1592,0.1111
 Croatia,Curaçao,-1,-1,-1
 Croatia,Czech Republic,-1,-1,-1
 Croatia,DR Congo,-1,-1,-1
 Croatia,Ecuador,-1,-1,-1
 Croatia,Egypt,-1,-1,-1
-Croatia,England,-1,-1,-1
+Croatia,England,0.2000,0.2167,0.5833
 Croatia,France,-1,-1,-1
 Croatia,Germany,-1,-1,-1
-Croatia,Ghana,-1,-1,-1
+Croatia,Ghana,0.5918,0.2230,0.1852
 Croatia,Haiti,-1,-1,-1
 Croatia,Iran,-1,-1,-1
 Croatia,Iraq,-1,-1,-1
@@ -444,7 +444,7 @@ Croatia,Morocco,-1,-1,-1
 Croatia,Netherlands,-1,-1,-1
 Croatia,New Zealand,-1,-1,-1
 Croatia,Norway,-1,-1,-1
-Croatia,Panama,-1,-1,-1
+Croatia,Panama,0.6552,0.1910,0.1538
 Croatia,Paraguay,-1,-1,-1
 Croatia,Portugal,-1,-1,-1
 Croatia,Qatar,-1,-1,-1
@@ -463,16 +463,16 @@ Croatia,Uruguay,-1,-1,-1
 Croatia,Uzbekistan,-1,-1,-1
 Curaçao,Czech Republic,-1,-1,-1
 Curaçao,DR Congo,-1,-1,-1
-Curaçao,Ecuador,-1,-1,-1
+Curaçao,Ecuador,0.0625,0.1042,0.8333
 Curaçao,Egypt,-1,-1,-1
 Curaçao,England,-1,-1,-1
 Curaçao,France,-1,-1,-1
-Curaçao,Germany,-1,-1,-1
+Curaçao,Germany,0.0244,0.0232,0.9524
 Curaçao,Ghana,-1,-1,-1
 Curaçao,Haiti,-1,-1,-1
 Curaçao,Iran,-1,-1,-1
 Curaçao,Iraq,-1,-1,-1
-Curaçao,Ivory Coast,-1,-1,-1
+Curaçao,Ivory Coast,0.0714,0.1190,0.8095
 Curaçao,Japan,-1,-1,-1
 Curaçao,Jordan,-1,-1,-1
 Curaçao,Mexico,-1,-1,-1
@@ -510,7 +510,7 @@ Czech Republic,Iraq,-1,-1,-1
 Czech Republic,Ivory Coast,-1,-1,-1
 Czech Republic,Japan,-1,-1,-1
 Czech Republic,Jordan,-1,-1,-1
-Czech Republic,Mexico,-1,-1,-1
+Czech Republic,Mexico,0.2128,0.2317,0.5556
 Czech Republic,Morocco,-1,-1,-1
 Czech Republic,Netherlands,-1,-1,-1
 Czech Republic,New Zealand,-1,-1,-1
@@ -522,8 +522,8 @@ Czech Republic,Qatar,-1,-1,-1
 Czech Republic,Saudi Arabia,-1,-1,-1
 Czech Republic,Scotland,-1,-1,-1
 Czech Republic,Senegal,-1,-1,-1
-Czech Republic,South Africa,-1,-1,-1
-Czech Republic,South Korea,-1,-1,-1
+Czech Republic,South Africa,0.5238,0.2323,0.2439
+Czech Republic,South Korea,0.3509,0.2718,0.3774
 Czech Republic,Spain,-1,-1,-1
 Czech Republic,Sweden,-1,-1,-1
 Czech Republic,Switzerland,-1,-1,-1
@@ -551,7 +551,7 @@ DR Congo,New Zealand,-1,-1,-1
 DR Congo,Norway,-1,-1,-1
 DR Congo,Panama,-1,-1,-1
 DR Congo,Paraguay,-1,-1,-1
-DR Congo,Portugal,-1,-1,-1
+DR Congo,Portugal,0.0909,0.1313,0.7778
 DR Congo,Qatar,-1,-1,-1
 DR Congo,Saudi Arabia,-1,-1,-1
 DR Congo,Scotland,-1,-1,-1
@@ -565,16 +565,16 @@ DR Congo,Tunisia,-1,-1,-1
 DR Congo,Turkey,-1,-1,-1
 DR Congo,United States,-1,-1,-1
 DR Congo,Uruguay,-1,-1,-1
-DR Congo,Uzbekistan,-1,-1,-1
+DR Congo,Uzbekistan,0.4255,0.2620,0.3125
 Ecuador,Egypt,-1,-1,-1
 Ecuador,England,-1,-1,-1
 Ecuador,France,-1,-1,-1
-Ecuador,Germany,-1,-1,-1
+Ecuador,Germany,0.1961,0.2121,0.5918
 Ecuador,Ghana,-1,-1,-1
 Ecuador,Haiti,-1,-1,-1
 Ecuador,Iran,-1,-1,-1
 Ecuador,Iraq,-1,-1,-1
-Ecuador,Ivory Coast,-1,-1,-1
+Ecuador,Ivory Coast,0.4082,0.3061,0.2857
 Ecuador,Japan,-1,-1,-1
 Ecuador,Jordan,-1,-1,-1
 Ecuador,Mexico,-1,-1,-1
@@ -604,7 +604,7 @@ Egypt,France,-1,-1,-1
 Egypt,Germany,-1,-1,-1
 Egypt,Ghana,-1,-1,-1
 Egypt,Haiti,-1,-1,-1
-Egypt,Iran,-1,-1,-1
+Egypt,Iran,0.4444,0.2698,0.2857
 Egypt,Iraq,-1,-1,-1
 Egypt,Ivory Coast,-1,-1,-1
 Egypt,Japan,-1,-1,-1
@@ -612,7 +612,7 @@ Egypt,Jordan,-1,-1,-1
 Egypt,Mexico,-1,-1,-1
 Egypt,Morocco,-1,-1,-1
 Egypt,Netherlands,-1,-1,-1
-Egypt,New Zealand,-1,-1,-1
+Egypt,New Zealand,0.5745,0.2332,0.1923
 Egypt,Norway,-1,-1,-1
 Egypt,Panama,-1,-1,-1
 Egypt,Paraguay,-1,-1,-1
@@ -633,7 +633,7 @@ Egypt,Uruguay,-1,-1,-1
 Egypt,Uzbekistan,-1,-1,-1
 England,France,-1,-1,-1
 England,Germany,-1,-1,-1
-England,Ghana,-1,-1,-1
+England,Ghana,0.7674,0.1273,0.1053
 England,Haiti,-1,-1,-1
 England,Iran,-1,-1,-1
 England,Iraq,-1,-1,-1
@@ -645,7 +645,7 @@ England,Morocco,-1,-1,-1
 England,Netherlands,-1,-1,-1
 England,New Zealand,-1,-1,-1
 England,Norway,-1,-1,-1
-England,Panama,-1,-1,-1
+England,Panama,0.7959,0.1132,0.0909
 England,Paraguay,-1,-1,-1
 England,Portugal,-1,-1,-1
 England,Qatar,-1,-1,-1
@@ -666,7 +666,7 @@ France,Germany,-1,-1,-1
 France,Ghana,-1,-1,-1
 France,Haiti,-1,-1,-1
 France,Iran,-1,-1,-1
-France,Iraq,-1,-1,-1
+France,Iraq,0.8889,0.0676,0.0435
 France,Ivory Coast,-1,-1,-1
 France,Japan,-1,-1,-1
 France,Jordan,-1,-1,-1
@@ -674,14 +674,14 @@ France,Mexico,-1,-1,-1
 France,Morocco,-1,-1,-1
 France,Netherlands,-1,-1,-1
 France,New Zealand,-1,-1,-1
-France,Norway,-1,-1,-1
+France,Norway,0.5556,0.2222,0.2222
 France,Panama,-1,-1,-1
 France,Paraguay,-1,-1,-1
 France,Portugal,-1,-1,-1
 France,Qatar,-1,-1,-1
 France,Saudi Arabia,-1,-1,-1
 France,Scotland,-1,-1,-1
-France,Senegal,-1,-1,-1
+France,Senegal,0.6875,0.1696,0.1429
 France,South Africa,-1,-1,-1
 France,South Korea,-1,-1,-1
 France,Spain,-1,-1,-1
@@ -696,7 +696,7 @@ Germany,Ghana,-1,-1,-1
 Germany,Haiti,-1,-1,-1
 Germany,Iran,-1,-1,-1
 Germany,Iraq,-1,-1,-1
-Germany,Ivory Coast,-1,-1,-1
+Germany,Ivory Coast,0.6491,0.1842,0.1667
 Germany,Japan,-1,-1,-1
 Germany,Jordan,-1,-1,-1
 Germany,Mexico,-1,-1,-1
@@ -732,7 +732,7 @@ Ghana,Morocco,-1,-1,-1
 Ghana,Netherlands,-1,-1,-1
 Ghana,New Zealand,-1,-1,-1
 Ghana,Norway,-1,-1,-1
-Ghana,Panama,-1,-1,-1
+Ghana,Panama,0.4878,0.2490,0.2632
 Ghana,Paraguay,-1,-1,-1
 Ghana,Portugal,-1,-1,-1
 Ghana,Qatar,-1,-1,-1
@@ -755,7 +755,7 @@ Haiti,Ivory Coast,-1,-1,-1
 Haiti,Japan,-1,-1,-1
 Haiti,Jordan,-1,-1,-1
 Haiti,Mexico,-1,-1,-1
-Haiti,Morocco,-1,-1,-1
+Haiti,Morocco,0.1000,0.1500,0.7500
 Haiti,Netherlands,-1,-1,-1
 Haiti,New Zealand,-1,-1,-1
 Haiti,Norway,-1,-1,-1
@@ -764,7 +764,7 @@ Haiti,Paraguay,-1,-1,-1
 Haiti,Portugal,-1,-1,-1
 Haiti,Qatar,-1,-1,-1
 Haiti,Saudi Arabia,-1,-1,-1
-Haiti,Scotland,-1,-1,-1
+Haiti,Scotland,0.1667,0.1842,0.6491
 Haiti,Senegal,-1,-1,-1
 Haiti,South Africa,-1,-1,-1
 Haiti,South Korea,-1,-1,-1
@@ -783,7 +783,7 @@ Iran,Jordan,-1,-1,-1
 Iran,Mexico,-1,-1,-1
 Iran,Morocco,-1,-1,-1
 Iran,Netherlands,-1,-1,-1
-Iran,New Zealand,-1,-1,-1
+Iran,New Zealand,0.5455,0.2372,0.2174
 Iran,Norway,-1,-1,-1
 Iran,Panama,-1,-1,-1
 Iran,Paraguay,-1,-1,-1
@@ -809,14 +809,14 @@ Iraq,Mexico,-1,-1,-1
 Iraq,Morocco,-1,-1,-1
 Iraq,Netherlands,-1,-1,-1
 Iraq,New Zealand,-1,-1,-1
-Iraq,Norway,-1,-1,-1
+Iraq,Norway,0.0625,0.0913,0.8462
 Iraq,Panama,-1,-1,-1
 Iraq,Paraguay,-1,-1,-1
 Iraq,Portugal,-1,-1,-1
 Iraq,Qatar,-1,-1,-1
 Iraq,Saudi Arabia,-1,-1,-1
 Iraq,Scotland,-1,-1,-1
-Iraq,Senegal,-1,-1,-1
+Iraq,Senegal,0.1333,0.1608,0.7059
 Iraq,South Africa,-1,-1,-1
 Iraq,South Korea,-1,-1,-1
 Iraq,Spain,-1,-1,-1
@@ -854,7 +854,7 @@ Ivory Coast,Uzbekistan,-1,-1,-1
 Japan,Jordan,-1,-1,-1
 Japan,Mexico,-1,-1,-1
 Japan,Morocco,-1,-1,-1
-Japan,Netherlands,-1,-1,-1
+Japan,Netherlands,0.2778,0.2222,0.5000
 Japan,New Zealand,-1,-1,-1
 Japan,Norway,-1,-1,-1
 Japan,Panama,-1,-1,-1
@@ -867,9 +867,9 @@ Japan,Senegal,-1,-1,-1
 Japan,South Africa,-1,-1,-1
 Japan,South Korea,-1,-1,-1
 Japan,Spain,-1,-1,-1
-Japan,Sweden,-1,-1,-1
+Japan,Sweden,0.4878,0.2344,0.2778
 Japan,Switzerland,-1,-1,-1
-Japan,Tunisia,-1,-1,-1
+Japan,Tunisia,0.5652,0.2307,0.2041
 Japan,Turkey,-1,-1,-1
 Japan,United States,-1,-1,-1
 Japan,Uruguay,-1,-1,-1
@@ -907,8 +907,8 @@ Mexico,Qatar,-1,-1,-1
 Mexico,Saudi Arabia,-1,-1,-1
 Mexico,Scotland,-1,-1,-1
 Mexico,Senegal,-1,-1,-1
-Mexico,South Africa,-1,-1,-1
-Mexico,South Korea,-1,-1,-1
+Mexico,South Africa,0.7143,0.1746,0.1111
+Mexico,South Korea,0.5455,0.2418,0.2128
 Mexico,Spain,-1,-1,-1
 Mexico,Sweden,-1,-1,-1
 Mexico,Switzerland,-1,-1,-1
@@ -925,7 +925,7 @@ Morocco,Paraguay,-1,-1,-1
 Morocco,Portugal,-1,-1,-1
 Morocco,Qatar,-1,-1,-1
 Morocco,Saudi Arabia,-1,-1,-1
-Morocco,Scotland,-1,-1,-1
+Morocco,Scotland,0.5122,0.2497,0.2381
 Morocco,Senegal,-1,-1,-1
 Morocco,South Africa,-1,-1,-1
 Morocco,South Korea,-1,-1,-1
@@ -949,9 +949,9 @@ Netherlands,Senegal,-1,-1,-1
 Netherlands,South Africa,-1,-1,-1
 Netherlands,South Korea,-1,-1,-1
 Netherlands,Spain,-1,-1,-1
-Netherlands,Sweden,-1,-1,-1
+Netherlands,Sweden,0.6078,0.1961,0.1961
 Netherlands,Switzerland,-1,-1,-1
-Netherlands,Tunisia,-1,-1,-1
+Netherlands,Tunisia,0.6667,0.1795,0.1538
 Netherlands,Turkey,-1,-1,-1
 Netherlands,United States,-1,-1,-1
 Netherlands,Uruguay,-1,-1,-1
@@ -980,7 +980,7 @@ Norway,Portugal,-1,-1,-1
 Norway,Qatar,-1,-1,-1
 Norway,Saudi Arabia,-1,-1,-1
 Norway,Scotland,-1,-1,-1
-Norway,Senegal,-1,-1,-1
+Norway,Senegal,0.4651,0.2319,0.3030
 Norway,South Africa,-1,-1,-1
 Norway,South Korea,-1,-1,-1
 Norway,Spain,-1,-1,-1
@@ -1018,8 +1018,8 @@ Paraguay,Spain,-1,-1,-1
 Paraguay,Sweden,-1,-1,-1
 Paraguay,Switzerland,-1,-1,-1
 Paraguay,Tunisia,-1,-1,-1
-Paraguay,Turkey,-1,-1,-1
-Paraguay,United States,-1,-1,-1
+Paraguay,Turkey,0.2941,0.2614,0.4444
+Paraguay,United States,0.2381,0.2381,0.5238
 Paraguay,Uruguay,-1,-1,-1
 Paraguay,Uzbekistan,-1,-1,-1
 Portugal,Qatar,-1,-1,-1
@@ -1035,7 +1035,7 @@ Portugal,Tunisia,-1,-1,-1
 Portugal,Turkey,-1,-1,-1
 Portugal,United States,-1,-1,-1
 Portugal,Uruguay,-1,-1,-1
-Portugal,Uzbekistan,-1,-1,-1
+Portugal,Uzbekistan,0.7959,0.1132,0.0909
 Qatar,Saudi Arabia,-1,-1,-1
 Qatar,Scotland,-1,-1,-1
 Qatar,Senegal,-1,-1,-1
@@ -1043,7 +1043,7 @@ Qatar,South Africa,-1,-1,-1
 Qatar,South Korea,-1,-1,-1
 Qatar,Spain,-1,-1,-1
 Qatar,Sweden,-1,-1,-1
-Qatar,Switzerland,-1,-1,-1
+Qatar,Switzerland,0.0714,0.0952,0.8333
 Qatar,Tunisia,-1,-1,-1
 Qatar,Turkey,-1,-1,-1
 Qatar,United States,-1,-1,-1
@@ -1053,13 +1053,13 @@ Saudi Arabia,Scotland,-1,-1,-1
 Saudi Arabia,Senegal,-1,-1,-1
 Saudi Arabia,South Africa,-1,-1,-1
 Saudi Arabia,South Korea,-1,-1,-1
-Saudi Arabia,Spain,-1,-1,-1
+Saudi Arabia,Spain,0.0357,0.0643,0.9000
 Saudi Arabia,Sweden,-1,-1,-1
 Saudi Arabia,Switzerland,-1,-1,-1
 Saudi Arabia,Tunisia,-1,-1,-1
 Saudi Arabia,Turkey,-1,-1,-1
 Saudi Arabia,United States,-1,-1,-1
-Saudi Arabia,Uruguay,-1,-1,-1
+Saudi Arabia,Uruguay,0.1333,0.1608,0.7059
 Saudi Arabia,Uzbekistan,-1,-1,-1
 Scotland,Senegal,-1,-1,-1
 Scotland,South Africa,-1,-1,-1
@@ -1082,7 +1082,7 @@ Senegal,Turkey,-1,-1,-1
 Senegal,United States,-1,-1,-1
 Senegal,Uruguay,-1,-1,-1
 Senegal,Uzbekistan,-1,-1,-1
-South Africa,South Korea,-1,-1,-1
+South Africa,South Korea,0.2439,0.2323,0.5238
 South Africa,Spain,-1,-1,-1
 South Africa,Sweden,-1,-1,-1
 South Africa,Switzerland,-1,-1,-1
@@ -1104,10 +1104,10 @@ Spain,Switzerland,-1,-1,-1
 Spain,Tunisia,-1,-1,-1
 Spain,Turkey,-1,-1,-1
 Spain,United States,-1,-1,-1
-Spain,Uruguay,-1,-1,-1
+Spain,Uruguay,0.6078,0.2070,0.1852
 Spain,Uzbekistan,-1,-1,-1
 Sweden,Switzerland,-1,-1,-1
-Sweden,Tunisia,-1,-1,-1
+Sweden,Tunisia,0.5349,0.2477,0.2174
 Sweden,Turkey,-1,-1,-1
 Sweden,United States,-1,-1,-1
 Sweden,Uruguay,-1,-1,-1
@@ -1121,7 +1121,7 @@ Tunisia,Turkey,-1,-1,-1
 Tunisia,United States,-1,-1,-1
 Tunisia,Uruguay,-1,-1,-1
 Tunisia,Uzbekistan,-1,-1,-1
-Turkey,United States,-1,-1,-1
+Turkey,United States,0.3704,0.2296,0.4000
 Turkey,Uruguay,-1,-1,-1
 Turkey,Uzbekistan,-1,-1,-1
 United States,Uruguay,-1,-1,-1
