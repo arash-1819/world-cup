@@ -8,6 +8,8 @@ import round32.model.*;
 import round32.Round32Calculator;
 import round16.Round16Calculator;
 import round16.model.Round16MatchResult;
+import round8.Round8Calculator;
+import round8.model.Round8MatchResult;
 
 import java.util.List;
 
@@ -36,5 +38,11 @@ public class Main {
         System.out.println("________________________________________________________________");
         List<Round16MatchResult> round16Results = Round16Calculator.calculate(round32Results, probabilities_round);
         Round16Calculator.printRound16Results(round16Results);
+
+        System.out.println("________________________________________________________________");
+        List<Round8MatchResult> round8Results = Round8Calculator.calculate(round16Results, probabilities_round);
+        Round8Calculator.printRound8Results(round8Results);
+
+        System.out.println();
     }
 }

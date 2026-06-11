@@ -9,7 +9,7 @@ Algeria,Canada,0.40,0,0.60
 Algeria,Cape Verde,0.90,0,0.10
 Algeria,Colombia,0.35,0,0.65
 Algeria,Croatia,0.25,0,0.75
-Algeria,Curaçao,0.85,0,0.15
+Algeria,Curacao,0.85,0,0.15
 Algeria,Czech Republic,0.80,0,0.20
 Algeria,DR Congo,0.95,0,0.05
 Algeria,Ecuador,0.80,0,0.20
@@ -55,7 +55,7 @@ Argentina,Canada,0.75,0,0.25
 Argentina,Cape Verde,0.95,0,0.05
 Argentina,Colombia,0.80,0,0.20
 Argentina,Croatia,0.65,0,0.35
-Argentina,Curaçao,0.95,0,0.05
+Argentina,Curacao,0.95,0,0.05
 Argentina,Czech Republic,0.80,0,0.20
 Argentina,DR Congo,0.95,0,0.05
 Argentina,Ecuador,0.80,0,0.20
@@ -100,7 +100,7 @@ Australia,Canada,0.35,0,0.65
 Australia,Cape Verde,0.99,0,0.01
 Australia,Colombia,0.45,0,0.55
 Australia,Croatia,0.35,0,0.65
-Australia,Curaçao,0.99,0,0.01
+Australia,Curacao,0.99,0,0.01
 Australia,Czech Republic,0.50,0,0.50
 Australia,DR Congo,0.99,0,0.01
 Australia,Ecuador,0.60,0,0.40
@@ -144,7 +144,7 @@ Austria,Canada,0.87,0,0.13
 Austria,Cape Verde,0.90,0,0.10
 Austria,Colombia,0.50,0,0.50
 Austria,Croatia,0.30,0,0.70
-Austria,Curaçao,0.90,0,0.10
+Austria,Curacao,0.90,0,0.10
 Austria,Czech Republic,0.70,0,0.30
 Austria,DR Congo,0.90,0,0.10
 Austria,Ecuador,0.75,0,0.25
@@ -187,7 +187,7 @@ Belgium,Canada,0.60,0,0.40
 Belgium,Cape Verde,0.95,0,0.05
 Belgium,Colombia,0.80,0,0.20
 Belgium,Croatia,0.70,0,0.30
-Belgium,Curaçao,0.95,0,0.05
+Belgium,Curacao,0.95,0,0.05
 Belgium,Czech Republic,0.80,0,0.20
 Belgium,DR Congo,0.95,0,0.05
 Belgium,Ecuador,0.85,0,0.15
@@ -229,7 +229,7 @@ Bosnia and Herzegovina,Canada,0.28,0,0.72
 Bosnia and Herzegovina,Cape Verde,0.90,0,0.10
 Bosnia and Herzegovina,Colombia,0.65,0,0.35
 Bosnia and Herzegovina,Croatia,0.40,0,0.60
-Bosnia and Herzegovina,Curaçao,0.90,0,0.10
+Bosnia and Herzegovina,Curacao,0.90,0,0.10
 Bosnia and Herzegovina,Czech Republic,0.65,0,0.35
 Bosnia and Herzegovina,DR Congo,0.90,0,0.10
 Bosnia and Herzegovina,Ecuador,0.80,0,0.20
@@ -270,7 +270,7 @@ Brazil,Canada,0.70,0,0.30
 Brazil,Cape Verde,0.90,0,0.10
 Brazil,Colombia,0.80,0,0.20
 Brazil,Croatia,0.80,0,0.20
-Brazil,Curaçao,0.95,0,0.05
+Brazil,Curacao,0.95,0,0.05
 Brazil,Czech Republic,0.75,0,0.25
 Brazil,DR Congo,0.90,0,0.10
 Brazil,Ecuador,0.90,0,0.10
@@ -310,7 +310,7 @@ Brazil,Uzbekistan,0.85,0,0.15
 Canada,Cape Verde,0.85,0,0.15
 Canada,Colombia,0.75,0,0.25
 Canada,Croatia,0.50,0,0.50
-Canada,Curaçao,0.90,0,0.10
+Canada,Curacao,0.90,0,0.10
 Canada,Czech Republic,0.60,0,0.40
 Canada,DR Congo,0.80,0,0.20
 Canada,Ecuador,0.75,0,0.25
@@ -348,7 +348,7 @@ Canada,United States,0.50,0,0.50
 Canada,Uruguay,0.60,0,0.40
 Canada,Uzbekistan,0.70,0,0.30
 Colombia,Croatia,0.30,0,0.70
-Colombia,Curaçao,0.95,0,0.05
+Colombia,Curacao,0.95,0,0.05
 Colombia,Czech Republic,0.50,0,0.50
 Colombia,DR Congo,0.82,0,0.18
 Colombia,Ecuador,0.50,0,0.50
@@ -385,7 +385,7 @@ Colombia,Turkey,0.50,0,0.50
 Colombia,United States,0.50,0,0.50
 Colombia,Uruguay,0.50,0,0.50
 Colombia,Uzbekistan,0.87,0,0.13
-Croatia,Curaçao,0.90,0,0.10
+Croatia,Curacao,0.90,0,0.10
 Croatia,Czech Republic,0.75,0,0.25
 Croatia,DR Congo,0.95,0,0.05
 Croatia,Ecuador,0.80,0,0.20
@@ -944,7 +944,6 @@ Qatar,Scotland,0.05,0,0.95
 Qatar,Sweden,0.10,0,0.90
 Qatar,Tunisia,0.20,0,0.80
 Qatar,Haiti,0.85,0,0.15
-Brazil,Curacao,0.99,0,0.01
 Netherlands,Curacao,0.99,0,0.01
 Morocco,Curacao,0.80,0,0.20
 Japan,Curacao,0.90,0,0.10
@@ -965,7 +964,7 @@ Cape Verde,Ghana,0.30,0,0.70
 Jordan,Panama,0.50,0,0.50
 Cape Verde,Panama,0.20,0,0.80
 Jordan,Uzbekistan,0.40,0,0.60
-Cape Verde,Curaçao,0.50,0,0.50
+Cape Verde,Curacao,0.50,0,0.50
 Cape Verde,Czech Republic,0.40,0,0.60
 Cape Verde,DR Congo,0.5,0,0.5
 Cape Verde,Ecuador,0.4,0,0.6
@@ -997,31 +996,31 @@ Cape Verde,Turkey,0.1,0,0.9
 Cape Verde,United States,0.1,0,0.9
 Cape Verde,Uruguay,0.1,0,0.9
 Cape Verde,Uzbekistan,0.1,0,0.9
-Curaçao,Czech Republic,0.2,0,0.8
-Curaçao,DR Congo,0.5,0,0.5
-Curaçao,Ecuador,0.45,0,0.55
-Curaçao,Egypt,0.15,0,0.85
-Curaçao,England,0.01,0,0.99
-Curaçao,Germany,0.01,0,0.99
-Curaçao,Ghana,0.15,0,0.85
-Curaçao,Iran,0.2,0,0.8
-Curaçao,Ivory Coast,0.3,0,0.7
-Curaçao,Jordan,0.3,0,0.7
-Curaçao,Mexico,0.15,0,0.85
-Curaçao,New Zealand,0.5,0,0.5
-Curaçao,Panama,0.4,0,0.6
-Curaçao,Paraguay,0.4,0,0.6
-Curaçao,Portugal,0.01,0,0.99
-Curaçao,Qatar,0.5,0,0.5
-Curaçao,Saudi Arabia,0.2,0,0.8
-Curaçao,South Africa,0.4,0,0.6
-Curaçao,South Korea,0.1,0,0.9
-Curaçao,Spain,0.01,0,0.99
-Curaçao,Switzerland,0.1,0,0.9
-Curaçao,Turkey,0.1,0,0.9
-Curaçao,United States,0.15,0,0.85
-Curaçao,Uruguay,0.15,0,0.85
-Curaçao,Uzbekistan,0.25,0,0.75
+Curacao,Czech Republic,0.2,0,0.8
+Curacao,DR Congo,0.5,0,0.5
+Curacao,Ecuador,0.45,0,0.55
+Curacao,Egypt,0.15,0,0.85
+Curacao,England,0.01,0,0.99
+Curacao,Germany,0.01,0,0.99
+Curacao,Ghana,0.15,0,0.85
+Curacao,Iran,0.2,0,0.8
+Curacao,Ivory Coast,0.3,0,0.7
+Curacao,Jordan,0.3,0,0.7
+Curacao,Mexico,0.15,0,0.85
+Curacao,New Zealand,0.5,0,0.5
+Curacao,Panama,0.4,0,0.6
+Curacao,Paraguay,0.4,0,0.6
+Curacao,Portugal,0.01,0,0.99
+Curacao,Qatar,0.5,0,0.5
+Curacao,Saudi Arabia,0.2,0,0.8
+Curacao,South Africa,0.4,0,0.6
+Curacao,South Korea,0.1,0,0.9
+Curacao,Spain,0.01,0,0.99
+Curacao,Switzerland,0.1,0,0.9
+Curacao,Turkey,0.1,0,0.9
+Curacao,United States,0.15,0,0.85
+Curacao,Uruguay,0.15,0,0.85
+Curacao,Uzbekistan,0.25,0,0.75
 DR Congo,Ecuador,0.3,0,0.7
 DR Congo,Egypt,0.15,0,0.85
 DR Congo,France,0.01,0,0.99
