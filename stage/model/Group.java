@@ -3,6 +3,7 @@ package stage.model;
 import shared.model.Team;
 
 import java.math.BigDecimal;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -14,6 +15,8 @@ public final class Group {
     private final List<Team> teams;
     private final Map<GroupOutcomeKey, GroupOutcome> outcomes;
 
+    private Map<String, TeamPlacementProbability> placementProbabilities;
+
     public Group(GroupName name, List<Team> teams) {
         if (name == null) {
             throw new IllegalArgumentException("Group name cannot be null.");
@@ -24,6 +27,7 @@ public final class Group {
         }
 
         Set<Team> uniqueTeams = new HashSet<>(teams);
+
         if (uniqueTeams.size() != 4) {
             throw new IllegalArgumentException("A group cannot contain duplicate teams.");
         }
@@ -31,6 +35,7 @@ public final class Group {
         this.name = name;
         this.teams = List.copyOf(teams);
         this.outcomes = new LinkedHashMap<>();
+        this.placementProbabilities = new LinkedHashMap<>();
     }
 
     public GroupName getName() {
@@ -47,6 +52,7 @@ public final class Group {
 
     public void clearOutcomes() {
         outcomes.clear();
+        placementProbabilities.clear();
     }
 
     public void addProbabilityToOutcome(
@@ -60,9 +66,11 @@ public final class Group {
         validateTeamBelongsToGroup(secondPlaceTeam);
         validateTeamBelongsToGroup(thirdPlaceTeam);
 
-        if (firstPlaceTeam.equals(secondPlaceTeam)
-                || firstPlaceTeam.equals(thirdPlaceTeam)
-                || secondPlaceTeam.equals(thirdPlaceTeam)) {
+        if (
+                firstPlaceTeam.equals(secondPlaceTeam)
+                        || firstPlaceTeam.equals(thirdPlaceTeam)
+                        || secondPlaceTeam.equals(thirdPlaceTeam)
+        ) {
             throw new IllegalArgumentException("Ranked teams must be unique.");
         }
 
@@ -79,6 +87,25 @@ public final class Group {
         );
 
         outcome.addProbabilityPercent(probabilityPercent);
+    }
+
+    public Map<String, TeamPlacementProbability> getPlacementProbabilities() {
+        return Collections.unmodifiableMap(
+                new LinkedHashMap<>(placementProbabilities)
+        );
+    }
+
+    public void setPlacementProbabilities(
+            Map<String, TeamPlacementProbability> placementProbabilities
+    ) {
+        if (placementProbabilities == null) {
+            throw new IllegalArgumentException(
+                    "Placement probabilities cannot be null."
+            );
+        }
+
+        this.placementProbabilities =
+                new LinkedHashMap<>(placementProbabilities);
     }
 
     private void validateTeamBelongsToGroup(String teamName) {
