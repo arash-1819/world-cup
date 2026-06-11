@@ -6,6 +6,8 @@ import stage.GroupOutcomeCalculator;
 import stage.GroupPlacementCalculator;
 import round32.model.*;
 import round32.Round32Calculator;
+import round16.Round16Calculator;
+import round16.model.Round16MatchResult;
 
 import java.util.List;
 
@@ -27,7 +29,12 @@ public class Main {
         MatchProbabilityTable probabilities_round = ProbabilityLoader.load('r');
         // probabilities_group.printAll();
 
+        System.out.println("________________________________________________________________");
         List<Round32MatchResult> round32Results = Round32Calculator.calculate(groups, probabilities_round);
         Round32Calculator.printRound32Results(round32Results);
+
+        System.out.println("________________________________________________________________");
+        List<Round16MatchResult> round16Results = Round16Calculator.calculate(round32Results, probabilities_round);
+        Round16Calculator.printRound16Results(round16Results);
     }
 }

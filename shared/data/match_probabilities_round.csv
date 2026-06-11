@@ -522,8 +522,8 @@ Egypt,Turkey,0.50,0,0.50
 Egypt,United States,0.50,0,0.50
 Egypt,Uruguay,0.60,0,0.40
 Egypt,Uzbekistan,0.75,0,0.25
-England,France,-1,-1,-1
-England,Germany,-1,-1,-1
+England,France,0.45,0,0.55
+England,Germany,0.40,0,0.60
 England,Ghana,0.88,0,0.12
 England,Haiti,0.90,0,0.10
 England,Iran,0.80,0,0.20
@@ -932,3 +932,199 @@ Jordan,Saudi Arabia,0.30,0,0.70
 New Zealand,Paraguay,0.30,0,0.70
 New Zealand,Turkey,0.10,0,0.90
 New Zealand,United States,0.20,0,0.80
+South Korea,Sweden,0.55,0,0.45
+South Korea,Tunisia,0.70,0,0.30
+South Korea,Haiti,0.99,0,0.01
+Switzerland,Haiti,0.95,0,0.05
+Mexico,Haiti,0.99,0,0.01
+Sweden,South Africa,0.70,0,0.30
+Tunisia,South Africa,0.50,0,0.50
+South Africa,Haiti,0.90,0,0.10
+Qatar,Scotland,0.05,0,0.95
+Qatar,Sweden,0.10,0,0.90
+Qatar,Tunisia,0.20,0,0.80
+Qatar,Haiti,0.85,0,0.15
+Brazil,Curacao,0.99,0,0.01
+Netherlands,Curacao,0.99,0,0.01
+Morocco,Curacao,0.80,0,0.20
+Japan,Curacao,0.90,0,0.10
+Sweden,Curacao,0.75,0,0.25
+Scotland,Curacao,0.80,0,0.20
+Tunisia,Curacao,0.80,0,0.20
+Norway,Haiti,0.99,0,0.01
+Senegal,Haiti,0.99,0,0.01
+Ivory Coast,Haiti,0.80,0,0.20
+Iraq,Haiti,0.90,0,0.10
+Curacao,Haiti,0.50,0,0.50
+Cape Verde,Croatia,0.20,0,0.80
+Cape Verde,England,0.05,0,0.95
+Jordan,Portugal,0.10,0,0.90
+Cape Verde,Portugal,0.10,0,0.90
+Cape Verde,Colombia,0.30,0,0.70
+Cape Verde,Ghana,0.30,0,0.70
+Jordan,Panama,0.50,0,0.50
+Cape Verde,Panama,0.20,0,0.80
+Jordan,Uzbekistan,0.40,0,0.60
+Cape Verde,Curaçao,0.50,0,0.50
+Cape Verde,Czech Republic,0.40,0,0.60
+Cape Verde,DR Congo,0.5,0,0.5
+Cape Verde,Ecuador,0.4,0,0.6
+Cape Verde,Egypt,0.2,0,0.8
+Cape Verde,France,0.01,0,0.99
+Cape Verde,Germany,0.05,0,0.95
+Cape Verde,Haiti,0.5,0,0.5
+Cape Verde,Iran,0.1,0,0.9
+Cape Verde,Iraq,0.1,0,0.9
+Cape Verde,Ivory Coast,0.3,0,0.7
+Cape Verde,Japan,0.1,0,0.9
+Cape Verde,Mexico,0.1,0,0.9
+Cape Verde,Morocco,0.1,0,0.9
+Cape Verde,Netherlands,0.01,0,0.99
+Cape Verde,New Zealand,0.5,0,0.5
+Cape Verde,Norway,0.05,0,0.95
+Cape Verde,Paraguay,0.2,0,0.8
+Cape Verde,Qatar,0.2,0,0.8
+Cape Verde,Saudi Arabia,0.2,0,0.8
+Cape Verde,Scotland,0.1,0,0.9
+Cape Verde,Senegal,0.1,0,0.9
+Cape Verde,South Africa,0.15,0,0.85
+Cape Verde,South Korea,0.1,0,0.9
+Cape Verde,Spain,0.01,0,0.99
+Cape Verde,Sweden,0.1,0,0.9
+Cape Verde,Switzerland,0.1,0,0.9
+Cape Verde,Tunisia,0.2,0,0.8
+Cape Verde,Turkey,0.1,0,0.9
+Cape Verde,United States,0.1,0,0.9
+Cape Verde,Uruguay,0.1,0,0.9
+Cape Verde,Uzbekistan,0.1,0,0.9
+Curaçao,Czech Republic,0.2,0,0.8
+Curaçao,DR Congo,0.5,0,0.5
+Curaçao,Ecuador,0.45,0,0.55
+Curaçao,Egypt,0.15,0,0.85
+Curaçao,England,0.01,0,0.99
+Curaçao,Germany,0.01,0,0.99
+Curaçao,Ghana,0.15,0,0.85
+Curaçao,Iran,0.2,0,0.8
+Curaçao,Ivory Coast,0.3,0,0.7
+Curaçao,Jordan,0.3,0,0.7
+Curaçao,Mexico,0.15,0,0.85
+Curaçao,New Zealand,0.5,0,0.5
+Curaçao,Panama,0.4,0,0.6
+Curaçao,Paraguay,0.4,0,0.6
+Curaçao,Portugal,0.01,0,0.99
+Curaçao,Qatar,0.5,0,0.5
+Curaçao,Saudi Arabia,0.2,0,0.8
+Curaçao,South Africa,0.4,0,0.6
+Curaçao,South Korea,0.1,0,0.9
+Curaçao,Spain,0.01,0,0.99
+Curaçao,Switzerland,0.1,0,0.9
+Curaçao,Turkey,0.1,0,0.9
+Curaçao,United States,0.15,0,0.85
+Curaçao,Uruguay,0.15,0,0.85
+Curaçao,Uzbekistan,0.25,0,0.75
+DR Congo,Ecuador,0.3,0,0.7
+DR Congo,Egypt,0.15,0,0.85
+DR Congo,France,0.01,0,0.99
+DR Congo,Germany,0.01,0,0.99
+DR Congo,Haiti,0.5,0,0.5
+DR Congo,Iran,0.1,0,0.9
+DR Congo,Iraq,0.1,0,0.9
+DR Congo,Ivory Coast,0.4,0,0.6
+DR Congo,Japan,0.1,0,0.9
+DR Congo,Jordan,0.4,0,0.6
+DR Congo,Mexico,0.1,0,0.9
+DR Congo,Morocco,0.1,0,0.9
+DR Congo,Netherlands,0.05,0,0.95
+DR Congo,New Zealand,0.4,0,0.6
+DR Congo,Norway,0.05,0,0.95
+DR Congo,Paraguay,0.4,0,0.6
+DR Congo,Portugal,0.05,0,0.95
+DR Congo,Qatar,0.3,0,0.7
+DR Congo,Saudi Arabia,0.15,0,0.85
+DR Congo,Scotland,0.2,0,0.8
+DR Congo,Senegal,0.3,0,0.7
+DR Congo,South Africa,0.4,0,0.6
+DR Congo,South Korea,0.1,0,0.9
+DR Congo,Spain,0.01,0,0.99
+DR Congo,Sweden,0.1,0,0.9
+DR Congo,Switzerland,0.1,0,0.9
+DR Congo,Tunisia,0.4,0,0.6
+DR Congo,Turkey,0.1,0,0.9
+DR Congo,United States,0.1,0,0.9
+DR Congo,Uruguay,0.1,0,0.9
+DR Congo,Uzbekistan,0.1,0,0.9
+Haiti,Iran,0.1,0,0.9
+Haiti,Jordan,0.2,0,0.8
+Haiti,Morocco,0.1,0,0.9
+Haiti,New Zealand,0.4,0,0.6
+Haiti,Panama,0.4,0,0.6
+Haiti,Paraguay,0.4,0,0.6
+Haiti,Portugal,0.01,0,0.99
+Haiti,Saudi Arabia,0.3,0,0.7
+Haiti,Scotland,0.1,0,0.9
+Haiti,Spain,0.01,0,0.99
+Haiti,Turkey,0.1,0,0.9
+Haiti,United States,0.1,0,0.9
+Haiti,Uruguay,0.1,0,0.9
+Haiti,Uzbekistan,0.15,0,0.85
+Jordan,Mexico,0.2,0,0.8
+Jordan,Morocco,0.2,0,0.8
+Jordan,Netherlands,0.05,0,0.95
+Jordan,New Zealand,0.4,0,0.6
+Jordan,Norway,0.05,0,0.95
+Jordan,Paraguay,0.1,0,0.9
+Jordan,Qatar,0.4,0,0.6
+Jordan,Scotland,0.2,0,0.8
+Jordan,Senegal,0.3,0,0.7
+Jordan,South Korea,0.1,0,0.9
+Jordan,Sweden,0.1,0,0.9
+Jordan,Switzerland,0.1,0,0.9
+Jordan,Tunisia,0.2,0,0.8
+Jordan,Turkey,0.1,0,0.9
+Jordan,United States,0.1,0,0.9
+New Zealand,Norway,0.01,0,0.99
+New Zealand,Panama,0.3,0,0.7
+New Zealand,Portugal,0.01,0,0.99
+New Zealand,Qatar,0.4,0,0.6
+New Zealand,Saudi Arabia,0.4,0,0.6
+New Zealand,Scotland,0.1,0,0.9
+New Zealand,Senegal,0.2,0,0.8
+New Zealand,South Africa,0.2,0,0.8
+New Zealand,South Korea,0.1,0,0.9
+New Zealand,Spain,0.01,0,0.99
+New Zealand,Sweden,0.1,0,0.9
+New Zealand,Switzerland,0.1,0,0.9
+New Zealand,Tunisia,0.2,0,0.8
+New Zealand,Uruguay,0.2,0,0.8
+New Zealand,Uzbekistan,0.2,0,0.8
+Qatar,Saudi Arabia,0.55,0,0.45
+Qatar,Senegal,0.4,0,0.6
+Qatar,Spain,0.01,0,0.99
+Qatar,Switzerland,0.2,0,0.8
+Qatar,Turkey,0.1,0,0.9
+Qatar,United States,0.2,0,0.8
+Qatar,Uruguay,0.1,0,0.9
+Qatar,Uzbekistan,0.2,0,0.8
+Saudi Arabia,Scotland,0.2,0,0.8
+Saudi Arabia,Senegal,0.25,0,0.75
+Saudi Arabia,South Africa,0.25,0,0.75
+Saudi Arabia,South Korea,0.15,0,0.85
+Saudi Arabia,Spain,0.05,0,0.95
+Saudi Arabia,Sweden,0.15,0,0.85
+Saudi Arabia,Switzerland,0.15,0,0.85
+Saudi Arabia,Tunisia,0.2,0,0.8
+Saudi Arabia,Turkey,0.1,0,0.9
+Saudi Arabia,United States,0.1,0,0.9
+Saudi Arabia,Uruguay,0.1,0,0.9
+Saudi Arabia,Uzbekistan,0.45,0,0.55
+South Africa,South Korea,0.2,0,0.8
+South Africa,Spain,0.01,0,0.99
+South Africa,Turkey,0.1,0,0.9
+South Africa,United States,0.2,0,0.8
+South Africa,Uruguay,0.2,0,0.8
+South Africa,Uzbekistan,0.3,0,0.7
+South Korea,Spain,0.3,0,0.7
+South Korea,Turkey,0.4,0,0.6
+South Korea,United States,0.4,0,0.6
+South Korea,Uruguay,0.5,0,0.5
+South Korea,Uzbekistan,0.6,0,0.4
