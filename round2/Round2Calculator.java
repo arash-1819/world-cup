@@ -59,48 +59,61 @@ public final class Round2Calculator {
         return round2Results;
     }
 
-public static void printRound2Results(List<Round2MatchResult> round2Results) {
-    for (Round2MatchResult result : round2Results) {
-        BigDecimal rawTotalProbabilityPercent = BigDecimal.ZERO;
+    public static void printRound2Results(List<Round2MatchResult> round2Results) {
+        for (Round2MatchResult result : round2Results) {
+            BigDecimal rawTotalProbabilityPercent = BigDecimal.ZERO;
 
-        for (Round2MatchWinnerProbability winnerProbability : result.getWinnerProbabilities()) {
-            rawTotalProbabilityPercent = rawTotalProbabilityPercent.add(
-                    winnerProbability.getProbabilityPercent(),
-                    MATH_CONTEXT
-            );
+            for (Round2MatchWinnerProbability winnerProbability : result.getWinnerProbabilities()) {
+                rawTotalProbabilityPercent = rawTotalProbabilityPercent.add(
+                        winnerProbability.getProbabilityPercent(),
+                        MATH_CONTEXT
+                );
+            }
+
+            BigDecimal redistributedTotalProbabilityPercent = BigDecimal.ZERO;
+
+            System.out.println();
+            System.out.println("Round 2 match " + result.getMatchNumber() + " redistributed winner probabilities");
+            printLine();
+            System.out.printf("| %-28s | %12s |%n", "Team", "Probability");
+            printLine();
+
+            for (Round2MatchWinnerProbability winnerProbability : result.getWinnerProbabilities()) {
+                BigDecimal redistributedProbabilityPercent = redistributeProbability(
+                        winnerProbability.getProbabilityPercent(),
+                        rawTotalProbabilityPercent
+                );
+
+                redistributedTotalProbabilityPercent = redistributedTotalProbabilityPercent.add(
+                        redistributedProbabilityPercent,
+                        MATH_CONTEXT
+                );
+
+                System.out.printf(
+                        "| %-28s | %11s%% |%n",
+                        winnerProbability.getTeam().getName(),
+                        formatProbability(redistributedProbabilityPercent)
+                );
+            }
+
+            printLine();
+            System.out.println("Raw valid probability: " + formatProbability(rawTotalProbabilityPercent) + "%");
+            System.out.println("Redistributed total probability: " + formatProbability(redistributedTotalProbabilityPercent) + "%");
         }
-
-        BigDecimal redistributedTotalProbabilityPercent = BigDecimal.ZERO;
-
-        System.out.println();
-        System.out.println("Round 2 match " + result.getMatchNumber() + " redistributed winner probabilities");
-        printLine();
-        System.out.printf("| %-28s | %12s |%n", "Team", "Probability");
-        printLine();
-
-        for (Round2MatchWinnerProbability winnerProbability : result.getWinnerProbabilities()) {
-            BigDecimal redistributedProbabilityPercent = redistributeProbability(
-                    winnerProbability.getProbabilityPercent(),
-                    rawTotalProbabilityPercent
-            );
-
-            redistributedTotalProbabilityPercent = redistributedTotalProbabilityPercent.add(
-                    redistributedProbabilityPercent,
-                    MATH_CONTEXT
-            );
-
-            System.out.printf(
-                    "| %-28s | %11s%% |%n",
-                    winnerProbability.getTeam().getName(),
-                    formatProbability(redistributedProbabilityPercent)
-            );
-        }
-
-        printLine();
-        System.out.println("Raw valid probability: " + formatProbability(rawTotalProbabilityPercent) + "%");
-        System.out.println("Redistributed total probability: " + formatProbability(redistributedTotalProbabilityPercent) + "%");
     }
-}
+
+    private static BigDecimal redistributeProbability(
+        BigDecimal probabilityPercent,
+        BigDecimal totalProbabilityPercent
+    ) {
+        if (totalProbabilityPercent.compareTo(BigDecimal.ZERO) == 0) {
+            return BigDecimal.ZERO;
+        }
+
+        return probabilityPercent
+                .multiply(ONE_HUNDRED, MATH_CONTEXT)
+                .divide(totalProbabilityPercent, MATH_CONTEXT);
+    }
 
     private static Round2MatchResult calculateMatch(
             Round2Match match,
