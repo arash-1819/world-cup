@@ -2,7 +2,7 @@
 import csv
 from decimal import Decimal, ROUND_HALF_UP
 
-INPUT_FILE = "match_probabilities_round.csv"
+INPUT_FILE = "match_probabilities_group.csv"
 OUTPUT_FILE = "probabilities_no_ties.csv"
 SCALE = Decimal("0.01")
 

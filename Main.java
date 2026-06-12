@@ -16,20 +16,20 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<Group> groups = LoadGroups.createGroups();
-        // LoadGroups.printGroups(groups);
+        LoadGroups.printGroups(groups);
 
         MatchProbabilityTable probabilities_group = ProbabilityLoader.load('g');
-        // probabilities_group.printAll();
+        probabilities_group.printAll();
 
         for (Group group : groups) {
             GroupOutcomeCalculator.calculate(group, probabilities_group);
-            // GroupOutcomeCalculator.printGroupOutcomes(group);
+            GroupOutcomeCalculator.printGroupOutcomes(group);
             GroupPlacementCalculator.calculate(group);
             GroupPlacementCalculator.printPlacementProbabilities(group);
         }
 
-        MatchProbabilityTable probabilities_round = ProbabilityLoader.load('r');
-        // probabilities_group.printAll();
+        MatchProbabilityTable probabilities_round = ProbabilityLoader.load('t');
+        probabilities_group.printAll();
 
         System.out.println("________________________________________________________________");
         List<Round32MatchResult> round32Results = Round32Calculator.calculate(groups, probabilities_round);

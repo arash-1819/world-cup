@@ -16,18 +16,34 @@ public class ProbabilityLoader {
             "match_probabilities_group.csv"
     );
 
-    private static final Path DEFAULT_ROUND_FILE_PATH = Path.of(
+    private static final Path ROUND_FILE_PATH_V1 = Path.of(
         "shared",
         "data",
-        "match_probabilities_round.csv"
+        "match_probabilities_round_v1.csv"
+    );
+
+    private static final Path ROUND_FILE_PATH_V2 = Path.of(
+        "shared",
+        "data",
+        "match_probabilities_round_v2.csv"
+    );
+
+    private static final Path ROUND_FILE_PATH_V3 = Path.of(
+        "shared",
+        "data",
+        "match_probabilities_round_v3.csv"
     );
 
     public static MatchProbabilityTable load(char mode) {
         if (mode == 'g') {
             return load(DEFAULT_GROUP_FILE_PATH);
         } else if (mode == 'r') {
-            return load(DEFAULT_ROUND_FILE_PATH);
-        }
+            return load(ROUND_FILE_PATH_V1);
+        } else if (mode == 's') {
+            return load(ROUND_FILE_PATH_V2);
+        } else if (mode == 't') {
+            return load(ROUND_FILE_PATH_V3);
+        } 
 
         throw new IllegalArgumentException("Invalid probability mode: " + mode);
     }
