@@ -1,0 +1,48 @@
+Spain,1.43
+France,1.93
+Argentina,3.07
+England,4.79
+Portugal,5.71
+Brazil,6.21
+Netherlands,7.57
+Germany,7.64
+Belgium,11.21
+Colombia,11.57
+Morocco,12.71
+Croatia,12.79
+Senegal,14.07
+Norway,15.21
+Ecuador,16
+Japan,16.29
+Uruguay,16.93
+Switzerland,17.64
+Mexico,17.86
+Turkiye,18
+USA,20.07
+Austria,23.07
+Ivory Coast,24
+South Korea,25.86
+Canada,26.43
+Egypt,28
+Sweden,28.21
+Paraguay,28.43
+Algeria,29.14
+Iran,29.36
+Australia,30.57
+Scotland,30.86
+Czechia,31.79
+Ghana,34.86
+Tunisia,35.14
+Bosnia/Herz,35.86
+Panama,36.57
+DR Congo,37.64
+Uzbekistan,38
+Saudi Arabia,39.5
+South Africa,39.79
+Jordan,41.29
+Iraq,41.93
+New Zealand,42.71
+Qatar,43
+Cape Verde,43.5
+Haiti,44.71
+Curaçao,47.07
