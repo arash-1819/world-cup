@@ -46,8 +46,8 @@ public class Main {
         System.out.println("________________________________________________________________");
         List<Round8MatchResult> round8Results = Round8Calculator.calculate(round16Results, probabilities_round);
         Round8Calculator.printRound8Results(round8Results);
-        // System.out.println("----------------------------------------------------------------");
-        // Round8Calculator.printTop4Probabilities(round8Results);
+        System.out.println("----------------------------------------------------------------");
+        Round8Calculator.printTop4Probabilities(round8Results);
 
         System.out.println("________________________________________________________________");
         List<Round4MatchResult> round4Results = Round4Calculator.calculate(round8Results, probabilities_round);
